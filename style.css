@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(217,185,155);
+    text-align: center;
+    font-family: "Karla";
+}
+
+img{
+    border-radius: 60%;
+    box-shadow: 5px 10px 15px #181818;
+}
+
+h2{
+    padding-bottom: 20px;
+    font-family: "Lora";
+}
+
+h3{
+    padding-bottom: 10px;
+    font-family: "Lora";
+}
+
+p{
+    margin-bottom: 35px;
+}
+
+div{
+    background-color: rgb(238,217,196);
+    border: solid 0.5px rgb(255,240,219);
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px gray;
+    color: #181818;
+    margin: 25px auto;
+    font-family: "Lora";
+    padding: 20px 50px;
+    width: 800px;
+}
+
+.list-inline li{
+    list-style: none;
+    margin: 15px;
+    padding-bottom: 20px;
+}
+
+.list-horizontal{
+    padding: 0px
+}
+
+.list-horizontal li{
+    list-style: none;
+    display: inline;
+    padding: 10px
+}
+
+a{
+	color: #b45f06;
+    transition: 0.5s ease-out;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Karla";
+    text-decoration: none;
+}
+
+a :hover{
+	color: #804507;
+    transform: scale(120%);
+}
+
+.btn-brown{
+    background-color: #b45f06;
+    color: rgb(230, 230, 230);
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.5s ease-out;
+}
+
+.btn-brown :hover{
+    color: #804507;
+    transform: scale(120%);
+}
+
+#introduction{
+    font-family: "Karla";
+    font-size: 18.5px;
+    text-align: center;
+}
